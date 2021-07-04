@@ -1,0 +1,251 @@
+{
+    "config_path": "./config.json",
+    "separators": {
+        "Dot": ".",
+        "Dash": "-",
+        "Underscore": "_"
+    },
+    "report_elements": [
+        "domain",
+        "email",
+        "steam",
+        "medium",
+        "spotify",
+        "github",
+        "facebook",
+        "instagram",
+        "linktree",
+        "twitter"
+    ],
+    "json_report_path": "./reports/json/{}.json",
+    "html_report_path": "./reports/html/{}.html",
+    "csv_report_path": "./reports/csv/{}.csv",
+    "plateform": {
+        "domain": {
+            "rate_limit": 100,
+            "format": "http://{permutation}.{domain}",
+            "TLD": [
+                "org",
+                "com",
+                "net"
+            ],
+            "type": "domain",
+            "enabled": "yes"
+        },
+        "email": {
+            "rate_limit": 1500,
+            "domains": [
+                "gmail.com",
+                "yahoo.com",
+                "hotmail.com"
+            ],
+            "format": "{permutation}@{domain}",
+            "type": "email",
+            "enabled": "yes"
+        },
+        "facebook": {
+            "rate_limit": 1000,
+            "format": "https://facebook.com/{permutation}",
+            "type": "social",
+            "enabled": "yes"
+        },
+        "twitter": {
+            "rate_limit": 1500,
+            "format": "https://twitter.com/{permutation}",
+            "type": "social",
+            "enabled": "yes"
+        },
+        "tiktok": {
+            "rate_limit": 1500,
+            "format": "https://www.tiktok.com/@{permutation}?",
+            "type": "social",
+            "enabled": "no"
+        },
+        "instagram": {
+            "rate_limit": 1000,
+            "format": "https://instagram.com/{permutation}",
+            "type": "social",
+            "enabled": "yes"
+        },
+        "soundcloud": {
+            "rate_limit": 1000,
+            "format": "https://soundcloud.com/{permutation}",
+            "type": "music",
+            "enabled": "yes"
+        },
+        "github": {
+            "rate_limit": 1000,
+            "format": "https://github.com/{permutation}",
+            "type": "programming",
+            "enabled": "yes"
+        },
+        "0x00sec": {
+            "rate_limit": 1000,
+            "format": "https://0x00sec.org/u/{permutation}",
+            "type": "forum",
+            "enabled": "yes"
+        },
+        "jeuxvideo.com": {
+            "rate_limit": 1000,
+            "format": "https://www.jeuxvideo.com/profil/{permutation}?mode=infos",
+            "type": "forum",
+            "enabled": "yes"
+        },
+        "skype": {
+            "rate_limit": 1000,
+            "format": "{permutation}",
+            "type": "tchat",
+            "enabled": "yes"
+        },
+        "dailymotion": {
+            "rate_limit": 1000,
+            "format": "https://dailymotion.com/{permutation}",
+            "type": "entertainment",
+            "enabled": "yes"
+        },
+        "pastebin": {
+            "rate_limit": 1000,
+            "format": "https://pastebin.com/u/{permutation}",
+            "type": "programming",
+            "enabled": "yes"
+        },
+        "spotify": {
+            "rate_limit": 1000,
+            "format": "https://open.spotify.com/user/{permutation}",
+            "type": "music",
+            "enabled": "yes"
+        },
+        "pinterest": {
+            "rate_limit": 1000,
+            "format": "https://pinterest.com/{permutation}",
+            "type": "social",
+            "enabled": "yes"
+        },
+        "hackernews": {
+            "rate_limit": 1000,
+            "format": "https://news.ycombinator.com/user?id={permutation}",
+            "type": "forum",
+            "enabled": "yes"
+        },
+        "pornhub": {
+            "rate_limit": 1000,
+            "format": "https://pornhub.com/users/{permutation}",
+            "type": "porn",
+            "enabled": "yes"
+        },
+        "redtube": {
+            "rate_limit": 1000,
+            "format": "https://redtube.com/users/{permutation}",
+            "type": "porn",
+            "enabled": "yes"
+        },
+        "replit": {
+            "rate_limit": 1000,
+            "format": "https://replit.com/@{permutation}",
+            "type": "programming",
+            "enabled": "yes"
+        },
+        "linktree": {
+            "rate_limit": 1000,
+            "format": "https://linktr.ee/{permutation}",
+            "type": "social",
+            "enabled": "yes"
+        },
+        "buymeacoffee": {
+            "rate_limit": 1000,
+            "format": "https://buymeacoffee.com/{permutation}",
+            "type": "money",
+            "enabled": "yes"
+        },
+        "xvideos": {
+            "rate_limit": 1000,
+            "format": "https://www.xvideos.com/profiles/{permutation}",
+            "type": "porn",
+            "enabled": "yes"
+        },
+        "myspace": {
+            "rate_limit": 2000,
+            "format": "https://myspace.com/{permutation}",
+            "type": "social",
+            "enabled": "yes"
+        },
+        "crackedto": {
+            "rate_limit": 1000,
+            "format": "https://cracked.to/{permutation}",
+            "type": "forum",
+            "enabled": "yes"
+        },
+        "vimeo": {
+            "rate_limit": 1000,
+            "format": "https://vimeo.com/{permutation}",
+            "type": "entertainment",
+            "enabled": "yes"
+        },
+        "patreon": {
+            "rate_limit": 1000,
+            "format": "https://www.patreon.com/{permutation}",
+            "type": "money",
+            "enabled": "yes"
+        },
+        "flickr": {
+            "rate_limit": 1000,
+            "format": "https://www.flickr.com/photos/{permutation}",
+            "type": "social",
+            "enabled": "yes"
+        },
+        "smule": {
+            "rate_limit": 1000,
+            "format": "https://smule.com/{permutation}",
+            "type": "music",
+            "enabled": "yes"
+        },
+        "aboutme": {
+            "rate_limit": 1000,
+            "format": "https://about.me/{permutation}",
+            "type": "hosting",
+            "enabled": "yes"
+        },
+        "lesswrong": {
+            "rate_limit": 1000,
+            "format": "https://www.lesswrong.com/users/{permutation}",
+            "type": "forum",
+            "enabled": "yes"
+        },
+        "wordpress": {
+            "rate_limit": 1000,
+            "format": "https://{permutation}.wordpress.com",
+            "type": "hosting",
+            "enabled": "yes"
+        },
+        "steam": {
+            "rate_limit": 1000,
+            "format": "https://steamcommunity.com/id/{permutation}",
+            "type": "gaming",
+            "enabled": "yes"
+        },
+        "medium": {
+            "rate_limit": 1000,
+            "format": "https://{permutation}.medium.com",
+            "type": "medias",
+            "enabled": "yes"
+        },
+        "deviantart": {
+            "rate_limit": 1000,
+            "format": "https://www.deviantart.com/{permutation}",
+            "type": "entertainment",
+            "enabled": "yes"
+        },
+        "slideshare": {
+            "rate_limit": 1000,
+            "format": "https://slideshare.net/{permutation}",
+            "type": "hosting",
+            "enabled": "yes"
+        },
+        "goodread": {
+            "rate_limit": 1000,
+            "format": "https://www.goodreads.com/{permutation}",
+            "type": "social",
+            "enabled": "yes"
+        }
+    }
+}
