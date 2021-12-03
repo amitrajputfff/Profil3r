@@ -1,0 +1,158 @@
+{
+    "config_path": "./config.json",
+    "separators": {
+        "Dot": ".",
+        "Dash": "-",
+        "Underscore": "_"
+    },
+    "report_elements": [
+        "email",
+        "facebook",
+        "twitter"
+    ],
+    "json_report_path": "./reports/json/{}.json",
+    "html_report_path": "./reports/html/{}.html",
+    "csv_report_path": "./reports/csv/{}.csv",
+    "plateform": {
+        "domain": {
+            "rate_limit": 100,
+            "format": "http://{permutation}.{domain}",
+            "TLD": [
+                "org",
+                "com",
+                "net"
+            ],
+            "type": "domain"
+        },
+        "email": {
+            "rate_limit": 1500,
+            "domains": [
+                "gmail.com",
+                "yahoo.com",
+                "hotmail.com"
+            ],
+            "format": "{permutation}@{domain}",
+            "type": "email"
+        },
+        "facebook": {
+            "rate_limit": 1000,
+            "format": "https://facebook.com/{permutation}",
+            "type": "social"
+        },
+        "twitter": {
+            "rate_limit": 1000,
+            "format": "https://twitter.com/{permutation}",
+            "type": "social"
+        },
+        "tiktok": {
+            "rate_limit": 1500,
+            "format": "https://www.tiktok.com/@{permutation}?",
+            "type": "social"
+        },
+        "instagram": {
+            "rate_limit": 1000,
+            "format": "https://instagram.com/{permutation}",
+            "type": "social"
+        },
+        "soundcloud": {
+            "rate_limit": 1000,
+            "format": "https://soundcloud.com/{permutation}",
+            "type": "music"
+        },
+        "github": {
+            "rate_limit": 1000,
+            "format": "https://github.com/{permutation}",
+            "type": "programming"
+        },
+        "0x00sec": {
+            "rate_limit": 1000,
+            "format": "https://0x00sec.org/u/{permutation}",
+            "type": "forum"
+        },
+        "jeuxvideo.com": {
+            "rate_limit": 1000,
+            "format": "https://www.jeuxvideo.com/profil/{permutation}?mode=infos",
+            "type": "forum"
+        },
+        "skype": {
+            "rate_limit": 1000,
+            "format": "{permutation}",
+            "type": "tchat"
+        },
+        "dailymotion": {
+            "rate_limit": 1000,
+            "format": "https://dailymotion.com/{permutation}",
+            "type": "entertainment"
+        },
+        "pastebin": {
+            "rate_limit": 1000,
+            "format": "https://pastebin.com/u/{permutation}",
+            "type": "programming"
+        },
+        "spotify": {
+            "rate_limit": 1000,
+            "format": "https://open.spotify.com/user/{permutation}",
+            "type": "music"
+        },
+        "pinterest": {
+            "rate_limit": 1000,
+            "format": "https://pinterest.fr/{permutation}",
+            "type": "social"
+        },
+        "hackernews": {
+            "rate_limit": 1000,
+            "format": "https://news.ycombinator.com/user?id={permutation}",
+            "type": "forum"
+        },
+        "pornhub": {
+            "rate_limit": 1000,
+            "format": "https://pornhub.com/users/{permutation}",
+            "type": "porn"
+        },
+        "redtube": {
+            "rate_limit": 1000,
+            "format": "https://redtube.com/users/{permutation}",
+            "type": "porn"
+        },
+        "replit": {
+            "rate_limit": 1000,
+            "format": "https://replit.com/@{permutation}",
+            "type": "programming"
+        },
+        "linktree": {
+            "rate_limit": 1000,
+            "format": "https://linktr.ee/{permutation}",
+            "type": "social"
+        },
+        "buymeacoffee": {
+            "rate_limit": 1000,
+            "format": "https://buymeacoffee.com/{permutation}",
+            "type": "money"
+        },
+        "xvideos": {
+            "rate_limit": 1000,
+            "format": "https://www.xvideos.com/profiles/{permutation}",
+            "type": "porn"
+        },
+        "myspace": {
+            "rate_limit": 1000,
+            "format": "https://myspace.com/{permutation}",
+            "type": "social"
+        },
+        "crackedto": {
+            "rate_limit": 1000,
+            "format": "https://cracked.to/{permutation}",
+            "type": "forum"
+        },
+        "vimeo": {
+            "rate_limit": 1000,
+            "format": "https://vimeo.com/{permutation}",
+            "type": "entertainment"
+        },
+        "patreon": {
+            "rate_limit": 1000,
+            "format": "https://www.patreon.com/{permutation}",
+            "type": "money"
+        }
+    }
+}
