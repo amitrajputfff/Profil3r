@@ -1,0 +1,111 @@
+body {
+    background: #e2e1e0;
+    text-align: center;
+}
+
+.title {
+    margin: 5px;
+    padding: 2px;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    border: none;
+    box-shadow: none !important;
+}
+
+a[target="_blank"]::after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+    margin: 0 3px 0 5px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 2px;
+    width: 80%; 
+    max-width: 80%;  
+    display: inline-block;
+    margin: 1rem;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    overflow-y: scroll;
+}
+
+.searchbar {
+    display: block;
+    font-weight:300;
+    font-size: 25px;
+    border:0px;
+    outline: none;
+    width: 40%;
+    margin: 10px auto 10px auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #4b545f;
+    background: #fff;
+    padding: 10px 15px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.searchbar:focus {
+    border-bottom:1px solid #ddd;
+}
+
+table {
+    text-align: left;
+}
+
+.card::-webkit-scrollbar {
+    width: 5px;
+}
+
+.card::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+.card::-webkit-scrollbar-thumb {
+    background: #666; 
+}
+
+.badge-entertainment {
+    background-color: #6ab7ff;
+}
+
+.badge-email {
+    background-color: #ffa4a2;
+}
+
+.badge-social {
+    background-color: #98ee99;
+}
+
+.badge-forum {
+    background-color: #efefef;
+}
+
+.badge-porn {
+    background-color: #e53935;
+}
+
+.badge-domain {
+    background-color: #82e9de;
+}
+
+.badge-money {
+    background-color: #6ff9ff;
+}
+
+.badge-music {
+    background-color: #ffa270;
+}
+
+.badge-programming {
+    background-color: #ffe54c;
+}
+
+.badge-tchat {
+    background-color: #df78ef;
+}
