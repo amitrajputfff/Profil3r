@@ -1,6 +1,0 @@
-PyInquirer
-argparse
-bs4
-jinja2
-pwnedpasswords
-requests
