@@ -35,7 +35,7 @@ pip3 install PyInquirer jinja2 bs4
 Install Profil3r :
 
 ```bash
-git clone https://github.com/Rog3rSm1th/Profil3r.git
+git clone https://github.com/amitrajputfff/Profil3r.git
 cd Profil3r/
 sudo python3 setup.py install
 ```
