@@ -178,4 +178,4 @@ This project is under the MIT license.
 
 ## Contact 
 
-for any remark, suggestion or job offer, you can contact me at r0g3r5@protonmail.com or on twitter [@Rog3rSm1th](https://twitter.com/Rog3rSm1th)
+for any remark, suggestion or job offer, you can contact me at AmitR3245@gmail.com or on twitter [@AmitRaj51760706](https://twitter.com/AmitRaj51760706)
