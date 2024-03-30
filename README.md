@@ -4,7 +4,7 @@
  
   <a target="_blank" href="https://www.python.org/downloads/" title="Python version"><img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"></a>
   <a target="_blank" href="LICENSE" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
-  <a target="_blank" href="https://twitter.com/AmitRaj51760706" title="Python version"><img src="https://img.shields.io/badge/-@Rog3rSm1th-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/AmitRaj51760706"></a>
+  <a target="_blank" href="https://twitter.com/AmitRaj51760706" title="Python version"><img src="https://img.shields.io/badge/-@Amitrajput-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/AmitRaj51760706"></a>
 </p>
 
 <p align="center">
