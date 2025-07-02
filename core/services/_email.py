@@ -1,4 +1,4 @@
-from profil3r.modules.email.email import Email
+from modules.email.email import Email
 
 # Emails
 def email(self):

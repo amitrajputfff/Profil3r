@@ -1,5 +1,5 @@
-from profil3r.modules.music.soundcloud import Soundcloud
-from profil3r.modules.music.spotify import Spotify
+from modules.music.soundcloud import SoundCloud
+from modules.music.spotify import Spotify
 
 # Soundcloud
 def soundcloud(self):

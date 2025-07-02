@@ -1,0 +1,87 @@
+{
+  "email": {
+    "type": "email",
+    "accounts": [
+      {
+        "value": "john@gmail.com",
+        "breached": true
+      },
+      {
+        "value": "doe@gmail.com",
+        "breached": true
+      },
+      {
+        "value": "johndoe@gmail.com",
+        "breached": true
+      },
+      {
+        "value": "doejohn@gmail.com",
+        "breached": false
+      },
+      {
+        "value": "john@yahoo.com",
+        "breached": true
+      },
+      {
+        "value": "doe@yahoo.com",
+        "breached": false
+      },
+      {
+        "value": "johndoe@yahoo.com",
+        "breached": true
+      },
+      {
+        "value": "doejohn@yahoo.com",
+        "breached": false
+      },
+      {
+        "value": "john@hotmail.com",
+        "breached": true
+      },
+      {
+        "value": "doe@hotmail.com",
+        "breached": false
+      },
+      {
+        "value": "johndoe@hotmail.com",
+        "breached": true
+      },
+      {
+        "value": "doejohn@hotmail.com",
+        "breached": false
+      }
+    ]
+  },
+  "domain": {
+    "type": "domain",
+    "accounts": [
+      {
+        "value": "http://john.org"
+      },
+      {
+        "value": "http://doe.org"
+      },
+      {
+        "value": "http://johndoe.org"
+      },
+      {
+        "value": "http://doejohn.org"
+      },
+      {
+        "value": "http://john.com"
+      },
+      {
+        "value": "http://doe.com"
+      },
+      {
+        "value": "http://johndoe.com"
+      },
+      {
+        "value": "http://doejohn.com"
+      },
+      {
+        "value": "http://john.net"
+      }
+    ]
+  }
+}

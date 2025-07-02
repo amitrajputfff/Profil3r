@@ -1,7 +1,7 @@
-from .colors import Colors
+from profil3r.core.colors import Colors
 
 def print_logo(self):
-    print(Colors.OKGREEN + Colors.BOLD + r'''
+    print(Colors.OKGREEN + Colors.BOLD + '''
     ____             _____ _______     
    / __ \_________  / __(_) /__  /_____
   / /_/ / ___/ __ \/ /_/ / / /_ </ ___/

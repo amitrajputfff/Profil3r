@@ -1,5 +1,5 @@
-from profil3r.modules.entertainment.dailymotion import Dailymotion
-from profil3r.modules.entertainment.vimeo import Vimeo
+from modules.entertainment.dailymotion import Dailymotion
+from modules.entertainment.vimeo import Vimeo
 
 # Dailymotion
 def dailymotion(self):

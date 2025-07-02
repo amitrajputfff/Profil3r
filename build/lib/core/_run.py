@@ -1,4 +1,4 @@
-from .colors import Colors
+from profil3r.core.colors import Colors
 import threading
 
 def run(self):

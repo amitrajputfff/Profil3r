@@ -1,10 +1,10 @@
-from profil3r.modules.social.facebook import Facebook
-from profil3r.modules.social.twitter import Twitter
-from profil3r.modules.social.tiktok import TikTok
-from profil3r.modules.social.instagram import Instagram
-from profil3r.modules.social.pinterest import Pinterest
-from profil3r.modules.social.linktree import LinkTree
-from profil3r.modules.social.myspace import MySpace
+from modules.social.facebook import Facebook
+from modules.social.twitter import Twitter
+from modules.social.instagram import Instagram
+from modules.social.tiktok import TikTok
+from modules.social.pinterest import Pinterest
+from modules.social.linktree import Linktree
+from modules.social.myspace import MySpace
 
 # Facebook
 def facebook(self):

@@ -1,4 +1,4 @@
-from .colors import Colors
+from profil3r.core.colors import Colors
 
 def print_results(self, element):
     if element in self.result:

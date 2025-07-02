@@ -1,7 +1,7 @@
-from profil3r.modules.forum.zeroxzerozerosec import ZeroxZeroZeroSec
-from profil3r.modules.forum.jeuxvideo import JeuxVideo
-from profil3r.modules.forum.hackernews import Hackernews
-from profil3r.modules.forum.crackedto import CrackedTo
+from modules.forum.zeroxzerozerosec import ZeroxZeroZeroSec
+from modules.forum.jeuxvideo import JeuxVideo
+from modules.forum.hackernews import Hackernews
+from modules.forum.crackedto import CrackedTo
 
 # 0x00sec
 def zeroxzerozerosec(self):
